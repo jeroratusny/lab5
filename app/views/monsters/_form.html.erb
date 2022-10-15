@@ -1,0 +1,8 @@
+
+<%= simple_form_for @monster do |f| %>
+  <%= f.input :name, label: 'Name' %> 
+  <%= f.input :description, label: 'Description' %>
+  <%= f.input :phone, label: 'Phone' %>
+  <%= f.input :birthdate, label: 'Birthdate' %>
+  <%= f.button :submit %>
+<% end %>
